@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ToWrite</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+   <div class="container">
+   
+<nav class="navbar navbar-inverse navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ToWrite</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">início <span class="sr-only">(current)</span></a></li>
+        <li><a href="perfil.html">Marcielli</a></li>
+        <li><a href="mensagens.html">Mensagens <span class="badge">42</span> </a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Escritor <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+          <li><a href="areatrabalho.html">Area de Trabalho</a></li> <!--Fazer uma pagina onde a pessoa vai escrevendo e ja vai visualizando como fica - onde ela começa a escrever as fanficas dela, cloca musica pra acompanhar e etc -->
+            <li><a href="hist-escrevo.html">Histórias que Escrevo</a></li>
+            <li><a href="hist-quero-escrever.html">Histórias que quero escrever</a></li>
+            <li><a href="agendar-post.html">Posts Agendados</a></li>
+            <li class="divider"></li>
+            <li><a href="duvidas-ptbr.html">Dúvidas de Português</a></li>
+            <li class="divider"></li>
+            <li><a href="find-beta.html">Encontrar Beta</a></li>
+          </ul>          
+        </li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Leitor <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="hist-acompanho.html">Histórias que Acompanho</a></li>
+            <li><a href="hist-geladeira.html">Histórias na Geladeira</a></li>
+           
+            <li class="divider"></li>
+            <li><a href="serbeta.html">Ser Beta</a></li>
+          </ul>          
+        </li>  
+        <li><a href="redessociais.html">Redes Sociais</a></li>  
+        <li><a href="ajuda.html">Ajuda</a></li>         
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Regras & Termos <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="regraspost.html">Regras de Postagem</a></li>
+            <li><a href="regrascond.html">Regras de Conduta</a></li>
+            <li><a href="termosuso.html">Termos de Uso</a></li> 
+            </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Configurações <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="contato.html">Contato/Suporte</a></li>
+            <li class="divider"></li>
+             <li><a href="alterarsenha.html">Alterar Senha</a></li>
+            <li><a href="excluirconta.html">Excluir Conta</a></li>    
+             <li><a href="sair.html">Sair</a></li>  
+            </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="container">
+
+
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+  <br>
+    <a href="#" class="thumbnail" class="perfilsize">
+      <img src="img/perfil.jpg" alt="..."  >
+      <h4>Marcielli Oliveira</h4>
+    </a>
+ 
+  </div>
+</div> 
+ 
+  <hr>
+</div>
+
+  
+    <div class="container">
+ 
+  <br>  
+    <div class="thumbnail">      
+      <div class="caption" class="center">
+      
+      <form class="form">
+      <div class="form-group">
+      <label for="exampleInputName2">Título</label>
+      <input type="text" class="form-control" id="exampleInputName2" placeholder="Digite aqui o título da sua história">      
+      </div>
+
+      <div class="form-group">
+      <label for="exampleInputName2">Coautor</label>
+      <input type="text" class="form-control" id="exampleInputName2" placeholder="Digite aqui o nome de quem ajudou a escrever a história">
+      </div>
+
+      <div class="form-group">     
+      <label for="exampleInputEmail2">Capa</label> <!-- Imagem Capa da sua história -->
+      <p>Atenção: Para que a capa fique em alta qualidade, poste imagem com tamanho XXX x XXX.</p>
+      <input type="file" class="file">     
+      </div>
+
+      <div class="form-group">
+      <label for="exampleInputEmail2">Música</label><br> <!-- Música para o leitor ouvir enquanto lê sua história -->
+       <p>Atenção: Faça upload de arquivo com extensão .mp3</p>
+      <input type="file" class="file">     
+      </div>
+
+      <div class="form-group">
+      <label for="exampleInputName2">Sinopse</label>
+      <textarea class="form-control" rows="6" placeholder="Digite aqui um texto, falando sobre sua história. Aqui é o lugar de escrever e deixar o seu fâ interessado em ler a sua história até o fim."></textarea>      
+      </div>
+
+      <div class="form-group">
+      <label for="exampleInputName2">HashTags</label>
+      <select multiple class="form-control">
+        <option>Álcool</option>
+        <option>Spoiler</option>
+        <option>Teste</option>
+        <option>Teste</option>
+        <option>Teste</option>
+        
+      </select><br>
+   <p><a href="#" class="btn btn-primary" role="button">Adicionar</a> <a href="#" class="btn btn-default" role="button">Remover</a></p>
+       <label for="exampleInputName2">HashTags Selecionadas</label>
+      <select multiple class="form-control">
+        <option>Álcool</option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>      
+      </div>
+
+       <div class="form-group">
+      <label for="exampleInputName2">Categorias</label>
+      <select multiple class="form-control">
+        <option>Animes/Mangás</option>
+        <option>Cartoons</option>
+        <option>Filmes</option>
+        <option>Jogos</option>
+        <option>Livros</option>
+        <option>Originais</option>
+        <option>Poesias</option>
+        <option>Quadrinhos</option>
+        <option>Seriados/Novelas</option>
+      </select><br>
+   <p><a href="#" class="btn btn-primary" role="button">Adicionar</a> <a href="#" class="btn btn-default" role="button">Remover</a></p>
+       <label for="exampleInputName2">Categorias Selecionadas</label>
+      <select multiple class="form-control">
+        <option>Seriados/Novelas</option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>
+      </div>
+        
+         <div class="form-group">
+          <label for="exampleInputName2">Gêneros</label>
+      <select multiple class="form-control">
+        <option>Ação</option>
+        <option>Amizade</option>
+        <option>Aventura</option>
+        <option>Comédia</option>
+        <option>Crossover</option>
+        <option>Drama</option>
+        <option>Fantasia</option>
+        <option>Ficção Cientifica</option>       
+        <option>Horror</option>
+        <option>Humor Negro</option>
+        <option>Mistério</option>
+        <option>Paródia</option>
+        <option>Poesia</option>
+        <option>Romance</option>
+        <option>Suspense</option>
+        <option>Terror</option>
+        <option>Universo Alternativo</option>
+       
+      </select>
+      
+      </div>
+      
+           <div class="form-group">
+      <label for="exampleInputEmail2">Classificação</label><br> 
+      <select class="form-control">
+        <option>+12</option>
+        <option>+15</option>
+        <option>+17</option>
+        <option>+18</option>
+        <option>Livre</option>        
+      </select>
+      </div>
+
+      <div class="form-group">
+      <label for="exampleInputName2">Título do Capítulo</label><br>
+      <input type="text" class="form-control" id="exampleInputName2" placeholder="Capitulo 1">
+      
+      </div>
+        
+        <div class="form-group">
+      <label for="exampleInputEmail2">Escreva aqui os capítulos de sua história</label><br> <!-- Música para o leitor ouvir enquanto lê sua história -->      
+      <textarea class="form-control" rows="15" placeholder="Digite aqui os capitulos de sua história. Poste um de cada vez."></textarea>
+      <!-- Colocar aqui o input onde tem as configurações de tamanho de texto, cor, bold e etc... -->
+      <p>Colocar dentro dessa textarea caixa de formatação de texto para o usuario postar a história</p>
+       </div>
+      
+      <div class="form-group">     
+      <label for="exampleInputEmail2">Fim da história?</label><br> <!-- Imagem Capa da sua história -->
+      <div class="checkbox">
+  <label>
+    <input type="checkbox" value="">
+    Clique aqui se esse for o último capítulo.
+  </label>
+</div>
+    
+      </div>
+
+
+     
+    <p><a href="#" class="btn btn-primary" role="button">Postar</a> <a href="#" class="btn btn-default" role="button">Agendar</a></p>
+      </form>
+
+     
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+  <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar no Fanfiction">
+        </div>
+        <button type="submit" class="btn btn-default">Pesquisar</button>
+      </form>
+     <p><a href="http://www.mtcorps.com.br/">www.mtcorps.com.br</a></p>
+  </div>
+</nav>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
